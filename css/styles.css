@@ -1,5 +1,20 @@
 :root {
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --navy-blue-color: #2e2f42;
+  --green-color: #31d0aa;
+  --slate-color: #434455;
+  --cornflower-color: #e7e9fc;
+  --light-slate-color: #8e8f99;
+  --cloud-color: #f4f4fd;
+  --navy-blue-modal-color: #2e2f42;
+  --grey-color: #2e2f42;
+  --white-color: #ffffff;
+  --dairy-color: #fcfcfc;
+
 }
+
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -80,6 +95,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-footer {
   margin-bottom: 16px;
@@ -108,6 +124,9 @@ ul {
   margin-left: 76px;
 }
 
+.menu-item{
+  padding: 24px 0;
+}
 nav .menu-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -129,7 +148,6 @@ nav .menu-item:not(:last-child) {
 /* контакты */
 .contact {
   margin-left: auto;
-
   font-style: normal;
 }
 .contact-list {
